@@ -1,0 +1,21 @@
+# Spring Properties
+spring:
+  application:
+     name: client-service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8763/eureka/
+  instance:
+    preferIpAddress: true
+
+# HTTP Server
+server:
+  port: 0   # HTTP (Tomcat) port
+  contextPath: /clientservice
+  
+service:
+  authserver:
+    url: http://AUTH-SERVICE

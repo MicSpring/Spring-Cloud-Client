@@ -1,0 +1,3 @@
+service:
+  accountserver:
+    url: http://ACCOUNT-SERVICE
